@@ -8,17 +8,17 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Header Section -->
   <header>
-    <div>
+    <div class="container">
       <img src="img/icon/rob-caran.svg" alt="Rob Caran">
       <nav>
-          <ul>
+          <ul class="navigation">
              <li><a href="index.html">Work</a></li>
              <li><a href="about.html">About</a></li>
              <li><a href="#contact">Contact</a></li>
@@ -38,16 +38,16 @@
         </p>
       </div> <!--close content wrapper-->
     </div> <!--close hero section-->
-    <div> <!--open work section of page-->
-      <div> <!--open content wrapper-->
+    <div id="work"> <!--open work section of page-->
+      <div class="container"> <!--open content wrapper-->
         <h2> <!--heading for work section-->
             My work
         </h2>
-        <div> <!--open section for the work "tile" which will contain two columns-->
+        <div class="row"> <!--open section for the work "tile" which will contain two columns-->
           <div> <!--open column 1-->
             <picture>
-              <source srcset="nordhut-small.png" media="(max-width:767px)"> <!--image for smaller screens/breakpoints-->
-              <img src="nordhut-large.png/1200x800" alt="NordHut Thumbnail Image"> <!--image for larger screens/breakpoints-->
+              <source srcset="img/nordhut-large.png" media="(max-width:767px)"> <!--image for smaller screens/breakpoints-->
+              <img src="img/nordhut-large.png" alt="NordHut Thumbnail Image"> <!--image for larger screens/breakpoints-->
             </picture>
           </div> <!--close column 1-->
           <div> <!--open column 2-->
@@ -63,8 +63,8 @@
         <div> <!--open new tile for second piece of work-->
           <div> <!--open column 1-->
             <picture>
-              <source srcset="img/icon/nftmuseum-small.png" media="(max-width:767px)"> <!--image for smaller screens/breakpoints-->
-              <img src="nftmuseum-large.png/1200x800" alt="NFT Museum Thumbnail Image"> <!--image for larger screens/breakpoints-->
+              <source srcset="img/nftmuseum-large.png" media="(max-width:767px)"> <!--image for smaller screens/breakpoints-->
+              <img src="img/nftmuseum-large.png" alt="NFT Museum Thumbnail Image"> <!--image for larger screens/breakpoints-->
             </picture>
           </div> <!--close column 1-->
           <div> <!--open column 2-->
@@ -82,12 +82,12 @@
   </main> <!--close main content section-->
 
   <footer>
-    <div class="footer"> <!--open content wrapper-->
+    <div class="container"> <!--open content wrapper-->
       <h2>
           Get in Touch
       </h2>
       <p>
-          Let's work together! <a href="https://www.behance.net/robcaran" class="button contact">Send me a message on Behance.</a> Prefer sending an email?
+          Let's work together! <a href="https://www.behance.net/robcaran" class="button">Send me a message on Behance.</a> Prefer sending an email?
       </p>
     <div>
   <a href="rozzqaran@gmail.com">Email me</a>
