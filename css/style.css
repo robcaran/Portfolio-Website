@@ -10,7 +10,12 @@ body {
 header {
   background-color: #ffffff;
   text-align: center;
+  position: fixed;
   width: 100%;
+}
+
+main {
+  padding-top: 111px;
 }
 
 img {
@@ -27,20 +32,22 @@ h4 {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2.3em;
   font-weight: 700;
   /* line-height: 1.2em; */
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 h4 {
   font-size: 1.35em;
@@ -54,7 +61,12 @@ p {
   padding: 0;
 }
 
-#hero-description {
+footer {
+  border-top: 1.5px solid rgb(238, 238, 238);
+  text-align: center;
+}
+
+.hero-description {
   font-size: 20px;
 }
 
@@ -135,8 +147,7 @@ nav a:active {
 /* Layout styling */
 
 .container {
-  padding: 0 35px;
-  margin-top: 30px;
+  padding: 0 15px;
 }
 
 .row {
@@ -160,7 +171,7 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 400;
   padding: 10px;
-  color: #680808;
+  color: #76ba90;
 }
 
 .social a {
@@ -186,6 +197,10 @@ nav > ul > li > a {
 }
 #hero p {
   margin: 15px;
+  text-align: center;
+}
+
+#work {
   text-align: center;
 }
 
@@ -284,6 +299,10 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  main {
+    padding-top: 91px;
+  }
+
   nav {
     width: auto;
     float: right;
@@ -314,7 +333,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
