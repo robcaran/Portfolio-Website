@@ -103,7 +103,7 @@ nav a {
 
 nav a:visited {
   /* visited link */
-  color: #76ba90;
+  color: #0a6d30;
 }
 
 nav a:hover,
@@ -162,13 +162,17 @@ nav>ul>li>a {
   text-transform: uppercase;
   font-weight: 400;
   padding: 10px;
-  color: #76ba90;
+  color: #0a6d30;
 }
 
 .social a {
   display: inline-block;
   width: 30px;
   margin: 15px;
+}
+
+.CV {
+  text-decoration: underline;
 }
 
 .copyright {
