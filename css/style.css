@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #fff;
   position: fixed;
   width: 100%;
 }
@@ -33,7 +33,6 @@ h4 {
 h1 {
   font-size: 2.3em;
   font-weight: 700;
-  /* line-height: 1.2em; */
 }
 
 h2 {
@@ -83,7 +82,6 @@ a:visited {
 a:hover,
 a:focus {
   color: #7e3e27;
-  /* text-decoration: underline;  */
 }
 
 a:active {
@@ -91,7 +89,7 @@ a:active {
   color: #341c13;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
 }
@@ -113,7 +111,6 @@ nav a:focus {
 }
 
 nav a:active {
-  /* selected link */
   color: #241813;
 }
 
@@ -134,15 +131,15 @@ nav a:active {
 
 .button:hover {
   background-color: rgb(2, 37, 38);
-  color: #ffffff;
+  color: #fff;
   opacity: 0.8;
   font-size: 18px;
 }
 
 .button:active {
-  background-color: #000000;
-  color: #ffffff;
-  border: 1px solid #000000;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
 }
 
 .container {
@@ -151,14 +148,13 @@ nav a:active {
 
 .row {
   margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
 }
 
 .logo {
   max-width: 45px;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 400;
   padding: 10px;
@@ -180,7 +176,7 @@ nav>ul>li>a {
 }
 
 #hero {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -344,11 +340,11 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -389,13 +385,3 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 }
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {}
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {}
